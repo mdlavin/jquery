@@ -9,7 +9,7 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2014-05-01T17:11Z
+ * Date: 2014-06-05T15:22Z
  */
 
 (function( global, factory ) {
@@ -8175,7 +8175,7 @@ jQuery.extend({
 			state = 2;
 
 			// Clear timeout if it exists
-			if ( timeoutTimer ) {
+			if ( timeoutTimer != null ) {
 				clearTimeout( timeoutTimer );
 			}
 
